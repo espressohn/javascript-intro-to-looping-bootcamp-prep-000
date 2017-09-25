@@ -21,7 +21,7 @@ function maybeTrue() {
 function doWhileLoop(array){
   var i=0
   do{
-    delete array[i]
+    array[i].shift()
     i++
   }while(array.length > 0 && maybeTrue())
   return
