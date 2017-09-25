@@ -1,5 +1,6 @@
 function forLoop(array){
   for(let i=0; i<25; i++){
+    console.log("I am ${parseint(i)} strange loop${i===0 ? '' : 's'}.")
     array.push("I am ${parseint(i)} strange loop${i===0 ? '' : 's'}.")
     console.log(i)
     console.log(array[i])
