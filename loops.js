@@ -13,3 +13,16 @@ function whileLoop(number){
   }
   return 'done'
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(array){
+  var i
+  do{
+    delete array[i]
+    i++
+  }while(array.length > 0 && maybeTrue())
+  return
+}
