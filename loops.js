@@ -19,7 +19,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
-  var i
+  var i=0
   do{
     delete array[i]
     i++
